@@ -31,7 +31,7 @@ class kondisi():
     file2.write(strtambah)
     file2.close()
 
-  def rmvmoney(self,n):
+   def rmvmoney(self,n):
     file1 = open('money.txt','r')
     uangk = file1.read()
     uangkint = int(uangk)
