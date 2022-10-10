@@ -113,3 +113,7 @@ elif pil == "4":
   print("Mungkin program ini tidak sempurna, saya juga masih belajar")
   print("Sekian Terimakasih")
   sys.exit()
+
+else:
+  print("Pilihan Salah")
+  sys.exit()
