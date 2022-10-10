@@ -48,7 +48,7 @@ print("3. Kurangi Uang")
 
 pil = input("\nPilihan: ")
 
-if pil == "1:
+if pil == "1":
   if intuangshow < 1:
     print("Maaf, Uang Anda Habis")
     sys.exit()
