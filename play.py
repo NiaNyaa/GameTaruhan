@@ -100,6 +100,7 @@ elif pil == "3":
 elif pil == "4":
   os.system('clear')
   print("Game ini dibuat oleh Ikhsan")
+  print("Ketik play.py untuk mulai")
   print("Ini adalah game taruhan")
   print("Jika kamu menang uang akan bertambah 2x")
   print("Namun jika kalah maka sebaliknya")
