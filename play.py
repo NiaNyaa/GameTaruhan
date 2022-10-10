@@ -89,8 +89,7 @@ elif pil == "2":
   brp = int(input("Tambah Berapa: "))
   kondisi.addmoney(brp)
   print("Berhasil Menambah:",brp)
-  sys.exit()
-  os.system('clear && python play.py')
+  sys.exit(), os.system('clear && python play.py')
 
 elif pil == "3":
   krg = int(input("Kurangi Berapa: "))
