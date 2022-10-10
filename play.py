@@ -5,7 +5,7 @@ import sys
 import time
 
 # Show Tanpa Class
-file = open('money.txt,'r')
+file = open('money.txt','r')
 uangshow = file.read()
 intuangshow = int(uangshow)
 file.close()
