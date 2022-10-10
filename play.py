@@ -63,14 +63,12 @@ pil = input("\nPilihan: ")
 if pil == "1":
   if intuangshow < 1:
     print("Maaf, Uang Anda Habis")
-    time.sleep(2)
-    os.system('clear && python play.py')
+    sys.exit()
 
   thn = int(input("Taruhan: "))
   if thn > intuangshow:
     print("Maaf, Uang Anda Tidak Cukup")
-    time.sleep(2)
-    os.system('clear && python play.py')
+    sys.exit()
 
   data = int(random.randint(1,2))
   if data == 1:
