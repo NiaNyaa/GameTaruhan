@@ -12,8 +12,22 @@ class show():
     print("Uangmu: ",uangk)
     file.close()
 
+# Add Money
+class kondisi():
+   def addmoney(self,n):
+    file1 = open('money.txt','r')
+    uangk = file.read()
+    uangkint = int(uangk)
+    file.close()
+    file2 = open('money.txt','w')
+    tambah = uangkint + n
+    strtambah = str(tambah)
+    file2.write(strtambah)
+    file2.close()
+
 # Name Class
 show = show()
+kondisi = kondisi()
 
 os.system("clear")
 print("Game Taruhan By Ikhsan")
@@ -25,4 +39,8 @@ print("2. Tambah Uang")
 print("3. Kurangi Uang")
 
 pil = input("\nPilihan: ")
+
+if pil == "2":
+  brp = int(input("Berapa: "))
+  kondisi.addmoney(brp)
 
