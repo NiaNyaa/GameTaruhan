@@ -6,11 +6,14 @@ import time
 class show():
   def money(self):
     file = open('money.txt','r')
-    read1 = file.read()
-    print(read1)
+    global uangk
+    uangk = file.read()
+    print(uangk)
     file.close()
 
 # Name Class
 show = show()
 
-show.money()
+print("Game Taruhan By "Ikhsan")
+print()
+print("Uangmu:",uangk)
