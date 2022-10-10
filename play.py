@@ -14,6 +14,7 @@ class show():
 # Name Class
 show = show()
 
+os.system("clear")
 print("Game Taruhan By Ikhsan")
 print()
 print("Uangmu:"),show.money()
