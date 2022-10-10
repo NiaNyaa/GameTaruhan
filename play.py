@@ -1,3 +1,4 @@
+# Created By Ikhsan
 import random
 import os
 import sys
@@ -17,4 +18,4 @@ show = show()
 os.system("clear")
 print("Game Taruhan By Ikhsan")
 print()
-print("Uangmu:"),show.money()
+print("Uangmu: Rp."),show.money()
