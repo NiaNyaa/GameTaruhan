@@ -93,7 +93,7 @@ elif pil == "2":
   os.system('clear && python play.py')
 
 elif pil == "3":
-  krg == int(input("Kurangi Berapa: "))
+  krg = int(input("Kurangi Berapa: "))
   kondisi.rmvmoney(krg)
   print("Berhasil Mengurangi Uang",krg)
 
