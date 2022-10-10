@@ -6,8 +6,8 @@ import time
 class show():
   def money(self):
     file = open('money.txt','r')
-    global uangk
     uangk = file.read()
+    global uangk
     print(uangk)
     file.close()
 
