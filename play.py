@@ -89,15 +89,13 @@ elif pil == "2":
   brp = int(input("Tambah Berapa: "))
   kondisi.addmoney(brp)
   print("Berhasil Menambah:",brp)
-  time.sleep(2)
-  os.system('clear && python play.py')
+  sys.exit()
 
 elif pil == "3":
   krg = int(input("Kurangi Berapa: "))
   if krg > intuangshow:
     print("Maaf, Tidak Boleh Melebihi Jumlah Uang")
-    time.sleep(2)
-    os.system('clear && python play.py')
+    sys.exit()
 
   kondisi.rmvmoney(krg)
   print("Berhasil Mengurangi Uang",krg)
