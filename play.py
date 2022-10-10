@@ -31,6 +31,17 @@ class kondisi():
     file2.write(strtambah)
     file2.close()
 
+  def rmvmoney(self,n):
+    file1 = open('money.txt','r')
+    uangk = file1.read()
+    uangkint = int(uangk)
+    file1.close()
+    file2 = open('money.txt','w')
+    tambah = uangkint - n
+    strtambah = str(tambah)
+    file2.write(strtambah)
+    file2.close()
+
 # Name Class
 show = show()
 kondisi = kondisi()
@@ -66,6 +77,7 @@ if pil == "1":
     os.system('clear && python play.py')
   else:
     print("Kamu Kalah")
+    kondisi.rmvmoney(thn)
     time.sleep(2)
     os.system('clear && python play.py')
   
@@ -74,4 +86,6 @@ elif pil == "2":
   brp = int(input("Berapa: "))
   kondisi.addmoney(brp)
   print("Berhasil Menambah:",brp)
+  time.sleep(2)
+  os.system('clear && python play.py')
 
