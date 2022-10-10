@@ -56,6 +56,7 @@ print()
 print("1. Mulai")
 print("2. Tambah Uang")
 print("3. Kurangi Uang")
+print("4. Info Game")
 
 pil = input("\nPilihan: ")
 
@@ -67,7 +68,8 @@ if pil == "1":
   thn = int(input("Taruhan: "))
   if thn > intuangshow:
     print("Maaf, Uang Anda Tidak Cukup")
-    sys.exit()
+    time.sleep(2)
+    os.system('clear && python play.py')
 
   data = int(random.randint(1,2))
   if data == 1:
