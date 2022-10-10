@@ -16,7 +16,7 @@ class show():
 class kondisi():
    def addmoney(self,n):
     file1 = open('money.txt','r')
-    uangk = file.read()
+    uangk = file1.read()
     uangkint = int(uangk)
     file.close()
     file2 = open('money.txt','w')
