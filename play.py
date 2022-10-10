@@ -108,3 +108,4 @@ elif pil == "4":
   print("Terimakasih telah bermain game ini")
   print("Mungkin program ini tidak sempurna, saya juga masih belajar")
   print("Sekian Terimakasih")
+  sys.exit()
