@@ -18,7 +18,7 @@ class kondisi():
     file1 = open('money.txt','r')
     uangk = file1.read()
     uangkint = int(uangk)
-    file.close()
+    file1.close()
     file2 = open('money.txt','w')
     tambah = uangkint + n
     strtambah = str(tambah)
