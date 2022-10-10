@@ -19,3 +19,10 @@ os.system("clear")
 print("Game Taruhan By Ikhsan")
 print()
 show.money()
+print()
+print("1. Mulai")
+print("2. Tambah Uang")
+print("3. Kurangi Uang")
+
+pil = input("\nPilihan: ")
+
