@@ -63,14 +63,15 @@ if pil == "1":
     print("Kamu Menang")
     kondisi.addmoney(thn)
     time.sleep(2)
-    os.system('clear && play.py')
+    os.system('clear && python play.py')
   else:
     print("Kamu Kalah")
     time.sleep(2)
-    os.system('clear && play.py')
+    os.system('clear && python play.py')
   
 
 elif pil == "2":
   brp = int(input("Berapa: "))
   kondisi.addmoney(brp)
+  print("Berhasil Menambah:",brp)
 
