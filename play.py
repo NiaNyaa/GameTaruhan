@@ -94,6 +94,11 @@ elif pil == "2":
 
 elif pil == "3":
   krg = int(input("Kurangi Berapa: "))
+  if krg > intuangshow:
+    print("Maaf, Tidak Boleh Melebihi Jumlah Uang")
+    time.sleep(2)
+    os.system('clear && python play.py')
+
   kondisi.rmvmoney(krg)
   print("Berhasil Mengurangi Uang",krg)
 
