@@ -3,7 +3,14 @@ import os
 import sys
 import time
 
-file = open('uang.txt','r')
-baca = file.read()
-print(baca)
-file.close()
+class show():
+  def money(self):
+    file = open('money.txt','r')
+    read1 = file.read()
+    print(read1)
+    file.close()
+
+# Name Class
+show = show()
+
+show.money()
