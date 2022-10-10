@@ -14,6 +14,6 @@ class show():
 # Name Class
 show = show()
 
-print("Game Taruhan By "Ikhsan")
+print("Game Taruhan By Ikhsan")
 print()
 print("Uangmu:",uangk)
