@@ -86,9 +86,25 @@ if pil == "1":
   
 
 elif pil == "2":
-  brp = int(input("Berapa: "))
+  brp = int(input("Tambah Berapa: "))
   kondisi.addmoney(brp)
   print("Berhasil Menambah:",brp)
   time.sleep(2)
   os.system('clear && python play.py')
 
+elif pil == "3":
+  krg == int(input("Kurangi Berapa: "))
+  kondisi.rmvmoney(krg)
+  print("Berhasil Mengurangi Uang,krg)
+
+elif pil == "4":
+  os.system('clear')
+  print("Game ini dibuat oleh Ikhsan")
+  print("Ini adalah game taruhan")
+  print("Jika kamu menang uang akan bertambah 2x")
+  print("Namun jika kalah maka sebaliknya")
+  print("Game ini tidak memakai uang asli")
+  print("Bahkan anda bisa mengurangi atau menambahkan uang sendiri")
+  print("Terimakasih telah bermain game ini")
+  print("Mungkin program ini tidak sempurna, saya juga masih belajar")
+  print("Sekian Terimakasih")
