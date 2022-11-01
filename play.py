@@ -50,7 +50,7 @@ kondisi = kondisi()
 os.system("clear")
 
 # Tampilan Program
-print("Game Taruhan By Ikhsan")
+print("Game Taruhan")
 print()
 print("Rp.",intuangshow)
 print()
