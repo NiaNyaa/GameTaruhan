@@ -1,4 +1,4 @@
-# Created By Ikhsan
+# Game Taruhan Python
 import random
 import os
 import sys
